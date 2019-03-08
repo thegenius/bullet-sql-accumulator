@@ -1,5 +1,5 @@
-CREATE TABLE `{{context.ext.sum_table_name}}` (
-{{context.ext.common_table_field}}
+CREATE TABLE `{{context.ext.sum_table_name_4}}` (
+{{context.ext.common_table_field_4}}
 `day_data_01_01` {{context.ext.sum_data_type}}  NOT NULL DEFAULT {{context.ext.sum_data_default}},
 `day_count_01_01` {{context.ext.sum_day_count_type}}  NOT NULL DEFAULT {{context.ext.sum_count_default}},
 `day_data_01_02` {{context.ext.sum_data_type}}  NOT NULL DEFAULT {{context.ext.sum_data_default}},
@@ -1529,6 +1529,6 @@ CREATE TABLE `{{context.ext.sum_table_name}}` (
 	`month_count_11` + 
 	`month_count_12`),
 
-{{context.ext.common_table_primary}}
+{{context.ext.common_table_primary_4}}
 )DEFAULT CHARSET=utf8mb4;
 
