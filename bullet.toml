@@ -10,7 +10,7 @@ common_table_primary = """PRIMARY KEY (`scope`,`user_id`,`year`)"""
 
 sum_table_name = "accumulator_sum"
 sum_data_type = "DECIMAL(35, 15)"
-sum_data_default = "0.5"
+sum_data_default = "0.0"
 
 sum_day_count_type = "DECIMAL(10, 0)"
 sum_month_count_type = "DECIMAL(12, 0)"
