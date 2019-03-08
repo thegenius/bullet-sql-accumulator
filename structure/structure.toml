@@ -1,0 +1,5 @@
+project_structure = [
+    {item_path = ".",  item_file = "sum.sql", item_tmpl = "sum.sql.tmpl", item_type = "static"},
+    {item_path = ".",  item_file = "max.sql", item_tmpl = "max.sql.tmpl", item_type = "static"},
+    {item_path = ".",  item_file = "min.sql", item_tmpl = "min.sql.tmpl", item_type = "static"}                  
+]

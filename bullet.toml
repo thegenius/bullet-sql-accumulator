@@ -1,0 +1,26 @@
+group = "example"
+project = "test"
+[ext]
+
+common_table_field = """`scope`   VARCHAR(128) NOT NULL,
+`user_id` BIGINT NOT NULL DEFAULT 0,
+`year`    INT NOT NULL DEFAULT 0,"""
+
+common_table_primary = """PRIMARY KEY (`scope`,`user_id`,`year`)"""
+
+sum_table_name = "accumulator_sum"
+sum_data_type = "DECIMAL(35, 15)"
+sum_data_default = "0.5"
+
+sum_day_count_type = "DECIMAL(10, 0)"
+sum_month_count_type = "DECIMAL(12, 0)"
+sum_year_count_type = "DECIMAL(15, 0)"
+sum_count_default = "0"
+
+max_table_name = "accumulator_max"
+max_data_type = "DECIMAL(35, 15)"
+max_data_default = "0.0"
+
+min_table_name = "accumulator_min"
+min_data_type = "DECIMAL(35, 15)"
+min_data_default = "0.0"
