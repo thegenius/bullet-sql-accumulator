@@ -1,0 +1,1 @@
+### this is accumulator sql generator template
